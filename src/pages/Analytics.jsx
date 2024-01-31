@@ -161,7 +161,7 @@ export default function Analytics(){
             <td>{index + 1}</td>
             <td>{quiz.name}</td>
             <td>{quiz.createdAt}</td>
-            <td>{Math.ceil(quiz.impressions/2)}</td>
+            <td>{Math.ceil(quiz.impressions)}</td>
             
             <div className="analyticsTableRowIcons">
 
