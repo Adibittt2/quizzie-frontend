@@ -150,7 +150,7 @@ export default function Dashboard(){
         <div key={index} className="dashboard_quizData">
         <div className="dashboard_quizData_top">
           <p id="dashboard_quizData_quizName">{item.name}</p>
-         <div className="dashboard_quizData_impressionsWithIcon"> <p id="dashboard_quizData_impressions">{item.impressions} </p>
+         <div className="dashboard_quizData_impressionsWithIcon"> <p id="dashboard_quizData_impressions">{Math.ceil(item.impressions/2)} </p>
          <VisibilityOutlinedIcon style={{color:"#ff4500"}}/>
           </div>
           </div>
