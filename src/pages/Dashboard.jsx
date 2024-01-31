@@ -131,7 +131,7 @@ export default function Dashboard(){
             <div className="dashboard_TotalValues_Impressions" 
             onClick={ 
               openModal}
-            ><p>{ (totalImpressions/2)>= 1000 ? `${Math.round(totalImpressions / 200) / 10}k`:Math.ceil(totalImpressions/2)} Impressions</p></div>
+            ><p>{ (totalImpressions/2)>= 1000 ? `${Math.round(totalImpressions / 400) / 10}k`:Math.ceil(totalImpressions/4)} Impressions</p></div>
 
 {isModalOpen && <DeleteBox/>}
            
