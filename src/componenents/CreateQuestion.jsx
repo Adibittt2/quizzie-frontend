@@ -442,7 +442,7 @@ const addnewOption = () => {
         </div>
 
         
-        {isModalOpen && <LinkShare link = {`https://quizzie-frontend-sand.vercel.app/quiz/${quizIdAfterCreation}`}/>}
+        {isModalOpen && <LinkShare link = {`https://quizzie-frontend2.vercel.app/quiz/${quizIdAfterCreation}`}/>}
         
         </div>
         <ToastContainer />
