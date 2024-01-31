@@ -13,6 +13,7 @@ export default function Analytics(){
 
     const localStorageUserDetails = JSON.parse(localStorage.getItem(process.env.REACT_APP_LOCALHOST_KEY));
 
+    
     const navigate = useNavigate();
     const toastOptions = {
         position: "bottom-right",

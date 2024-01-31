@@ -25,6 +25,7 @@ export default function Dashboard(){
 
   
   // let total_impressions = 0;
+  
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [quizList, setQuizList] = useState([]);
   const [totalImpressions, setTotalImpressions] = useState(0);
