@@ -94,7 +94,8 @@ export default function Analytics(){
     const quizLinkCopyHandler = (quizId)=>{
 
         const tempInput = document.createElement('input');
-        tempInput.value = `http://localhost:3000/quiz/${quizId}`;
+        tempInput.value = `https://quizzie-frontend-sand.vercel.app/quiz/${quizId}`;
+    
     
         // Append the input element to the document
         document.body.appendChild(tempInput);
